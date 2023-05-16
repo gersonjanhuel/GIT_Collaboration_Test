@@ -10,8 +10,9 @@ import SwiftUI
 struct DetailView: View {
     var body: some View {
         List {
-                Text("Dini")
-                Text("Gerson")
+            Text("Dini")
+            Text("Gerson")
+            Text("See all")
         }
     }
 }
