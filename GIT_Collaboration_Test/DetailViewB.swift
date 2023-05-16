@@ -8,5 +8,5 @@
 import Foundation
 
 class X {
-    private var x: Int = 0
+    private var x: Int = 1
 }
