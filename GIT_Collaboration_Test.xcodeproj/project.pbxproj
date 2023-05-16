@@ -11,6 +11,7 @@
 		7CD59E4F2A12120D008EBD9C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CD59E4E2A12120D008EBD9C /* ContentView.swift */; };
 		7CD59E512A12120E008EBD9C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CD59E502A12120E008EBD9C /* Assets.xcassets */; };
 		7CD59E542A12120E008EBD9C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CD59E532A12120E008EBD9C /* Preview Assets.xcassets */; };
+		9B7EB2CB2A1327390071082B /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B7EB2CA2A1327390071082B /* DetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		7CD59E4E2A12120D008EBD9C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		7CD59E502A12120E008EBD9C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7CD59E532A12120E008EBD9C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9B7EB2CA2A1327390071082B /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				7CD59E4C2A12120D008EBD9C /* GIT_Collaboration_TestApp.swift */,
 				7CD59E4E2A12120D008EBD9C /* ContentView.swift */,
+				9B7EB2CA2A1327390071082B /* DetailView.swift */,
 				7CD59E502A12120E008EBD9C /* Assets.xcassets */,
 				7CD59E522A12120E008EBD9C /* Preview Content */,
 			);
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7CD59E4F2A12120D008EBD9C /* ContentView.swift in Sources */,
+				9B7EB2CB2A1327390071082B /* DetailView.swift in Sources */,
 				7CD59E4D2A12120D008EBD9C /* GIT_Collaboration_TestApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
