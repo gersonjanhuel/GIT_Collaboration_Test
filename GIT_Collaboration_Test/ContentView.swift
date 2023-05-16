@@ -21,6 +21,10 @@ struct ContentView: View {
                 print("Button 2")
             }
             
+            Button("Button 3") {
+                print("Button 3")
+            }
+            
         }
         .padding()
     }
