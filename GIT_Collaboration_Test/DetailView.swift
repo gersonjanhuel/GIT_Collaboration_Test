@@ -12,7 +12,7 @@ struct DetailView: View {
         List {
             Text("Dini")
             Text("Gerson")
-            Text("See all")
+            Text("See all people")
         }
     }
 }
