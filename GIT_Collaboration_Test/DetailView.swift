@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+// Orang ke 2
 struct DetailView: View {
     @State private var isLoved: Bool = false
     
@@ -45,13 +46,9 @@ struct DetailView: View {
         }
         .foregroundColor(.orange)
         .toolbar {
+            // Orang ke 3
             ToolbarItem(placement: .navigationBarTrailing) {
-                Button {
-                    isLoved.toggle()
-                } label: {
-                    Image(systemName: isLoved ? "heart.fill" : "heart")
-                }
-
+                NavigationBarButtonView(isLoved: $isLoved)
             }
         }
         
@@ -63,3 +60,5 @@ struct DetailView_Previews: PreviewProvider {
         DetailView()
     }
 }
+
+

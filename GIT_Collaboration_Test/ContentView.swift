@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+// Orang ke 1
 struct ContentView: View {
     var body: some View {
         NavigationStack {
