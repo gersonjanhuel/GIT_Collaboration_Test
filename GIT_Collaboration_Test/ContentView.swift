@@ -9,6 +9,8 @@ import SwiftUI
 
 // Orang ke 1
 struct ContentView: View {
+    var name = "Rizal"
+    
     var body: some View {
         NavigationStack {
             List {
