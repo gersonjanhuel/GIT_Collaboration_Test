@@ -15,10 +15,15 @@ struct DetailView: View {
         VStack() {
             Rectangle()
                 .frame(width: 90, height: 80)
-                .foregroundColor(.red)
+                .foregroundColor(.blue)
                 .padding(.top, 30)
                 .padding(.bottom, 20)
                 .clipShape(Circle())
+                .overlay {
+                    Text("Rizal")
+                        .foregroundStyle(.white)
+                        .font(.headline)
+                }
             
             Rectangle()
                 .frame(width: 150, height: 20)
