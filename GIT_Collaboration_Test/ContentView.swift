@@ -48,18 +48,19 @@ struct ListRowView: View {
     var body: some View {
         NavigationLink(destination: DetailView()) {
             HStack(alignment: .top) {
-                Rectangle()
+                RoundedRectangle(cornerRadius: 12 )
                     .frame(width: 80, height: 80)
-                    .foregroundColor(.blue)
+                    .foregroundColor(Color(red: Double.random(in: 0...2), green: Double.random(in: 0...2), blue: Double.random(in: 0...2)))
+                    
                 
                 VStack(alignment: .leading) {
-                    Rectangle()
+                    RoundedRectangle(cornerRadius: 12)
                         .frame(width: 80, height: 20)
                     
-                    Rectangle()
+                    RoundedRectangle(cornerRadius: 12)
                         .frame(height: 20)
                     
-                    Rectangle()
+                    RoundedRectangle(cornerRadius: 12)
                         .frame(height: 20)
                 }
                 .foregroundColor(.orange)
