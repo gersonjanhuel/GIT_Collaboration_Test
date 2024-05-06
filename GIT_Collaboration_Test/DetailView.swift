@@ -15,9 +15,10 @@ struct DetailView: View {
         VStack() {
             Rectangle()
                 .frame(width: 90, height: 80)
-                .foregroundColor(.blue)
+                .foregroundColor(.red)
                 .padding(.top, 30)
                 .padding(.bottom, 20)
+                .clipShape(Circle())
             
             Rectangle()
                 .frame(width: 150, height: 20)
